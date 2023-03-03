@@ -1,6 +1,6 @@
 module github.com/zreigz/acme
 
-go 1.18
+go 1.17
 
 require (
 	k8s.io/apimachinery v0.26.2
