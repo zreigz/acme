@@ -6,6 +6,7 @@ func init() {
 	SchemeBuilder.Register(&Acme{}, &AcmeList{})
 }
 
+// +k8s:openapi-gen=true
 // +kubebuilder:object:root=true
 // +kubebuilder:resource:scope=Cluster
 type Acme struct {
